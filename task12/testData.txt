@@ -1,0 +1,13 @@
+hello world
+test pattern
+3213 hei
+HELLO again
+another test
+hello there
+12 23 44 55
+final line
+Hello with context
+context before
+HELLO context
+context after
+helLo world
