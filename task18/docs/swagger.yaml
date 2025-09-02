@@ -1,0 +1,308 @@
+definitions:
+  repository.CreateEventRequest:
+    properties:
+      date:
+        example: YYYY-MM-DD
+        format: date
+        type: string
+      title:
+        example: example string
+        type: string
+      user_id:
+        example: 1
+        type: integer
+    required:
+    - date
+    - title
+    - user_id
+    type: object
+  repository.DeleteEventRequest:
+    properties:
+      event_id:
+        example: 1
+        type: integer
+      user_id:
+        example: 1
+        type: integer
+    required:
+    - event_id
+    - user_id
+    type: object
+  repository.ErrorResponse:
+    properties:
+      error:
+        type: string
+    type: object
+  repository.Event:
+    properties:
+      created_at:
+        type: string
+      date:
+        type: string
+      id:
+        type: integer
+      title:
+        type: string
+      updated_at:
+        type: string
+      user_id:
+        type: integer
+    type: object
+  repository.EventsResponse:
+    properties:
+      events:
+        items:
+          $ref: '#/definitions/repository.Event'
+        type: array
+    type: object
+  repository.SuccessResponse:
+    properties:
+      result: {}
+    type: object
+  repository.UpdateEventRequest:
+    properties:
+      date:
+        example: YYYY-MM-DD
+        format: date
+        type: string
+      event_id:
+        example: 1
+        type: integer
+      title:
+        example: example string
+        type: string
+      user_id:
+        example: 1
+        type: integer
+    required:
+    - date
+    - event_id
+    - title
+    - user_id
+    type: object
+info:
+  contact: {}
+paths:
+  /create_event:
+    post:
+      consumes:
+      - application/json
+      description: Создает новое событие в календаре пользователя
+      parameters:
+      - description: Данные события
+        in: body
+        name: event
+        required: true
+        schema:
+          $ref: '#/definitions/repository.CreateEventRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/repository.SuccessResponse'
+            - properties:
+                result:
+                  $ref: '#/definitions/repository.Event'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/repository.ErrorResponse'
+        "503":
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/repository.ErrorResponse'
+      summary: Создать новое событие
+      tags:
+      - events
+  /delete_event:
+    post:
+      consumes:
+      - application/json
+      description: Удаляет событие из календаря пользователя
+      parameters:
+      - description: Данные для удаления события
+        in: body
+        name: event
+        required: true
+        schema:
+          $ref: '#/definitions/repository.DeleteEventRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/repository.SuccessResponse'
+            - properties:
+                result:
+                  type: object
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/repository.ErrorResponse'
+        "503":
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/repository.ErrorResponse'
+      summary: Удалить событие
+      tags:
+      - events
+  /events_for_day:
+    get:
+      description: Возвращает все события пользователя на указанный день
+      parameters:
+      - description: ID пользователя
+        in: query
+        name: user_id
+        required: true
+        type: integer
+      - description: Дата в формате YYYY-MM-DD
+        in: query
+        name: date
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/repository.SuccessResponse'
+            - properties:
+                result:
+                  $ref: '#/definitions/repository.EventsResponse'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/repository.ErrorResponse'
+      summary: События на день
+      tags:
+      - events
+  /events_for_month:
+    get:
+      description: Возвращает все события пользователя на указанный месяц
+      parameters:
+      - description: ID пользователя
+        in: query
+        name: user_id
+        required: true
+        type: integer
+      - description: Дата в формате YYYY-MM-DD
+        in: query
+        name: date
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/repository.SuccessResponse'
+            - properties:
+                result:
+                  $ref: '#/definitions/repository.EventsResponse'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/repository.ErrorResponse'
+      summary: События на месяц
+      tags:
+      - events
+  /events_for_week:
+    get:
+      description: Возвращает все события пользователя на указанную неделю
+      parameters:
+      - description: ID пользователя
+        in: query
+        name: user_id
+        required: true
+        type: integer
+      - description: Дата в формате YYYY-MM-DD
+        in: query
+        name: date
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/repository.SuccessResponse'
+            - properties:
+                result:
+                  $ref: '#/definitions/repository.EventsResponse'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/repository.ErrorResponse'
+      summary: События на неделю
+      tags:
+      - events
+  /health:
+    get:
+      description: Проверяет, что сервер работает
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/repository.SuccessResponse'
+            - properties:
+                result:
+                  $ref: '#/definitions/repository.SuccessResponse'
+              type: object
+      summary: Проверка здоровья
+      tags:
+      - utility
+  /update_event:
+    post:
+      consumes:
+      - application/json
+      description: Обновляет существующее событие в календаре пользователя
+      parameters:
+      - description: Данные для обновления события
+        in: body
+        name: event
+        required: true
+        schema:
+          $ref: '#/definitions/repository.UpdateEventRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/repository.SuccessResponse'
+            - properties:
+                result:
+                  $ref: '#/definitions/repository.Event'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/repository.ErrorResponse'
+        "503":
+          description: Service Unavailable
+          schema:
+            $ref: '#/definitions/repository.ErrorResponse'
+      summary: Обновить событие
+      tags:
+      - events
+swagger: "2.0"

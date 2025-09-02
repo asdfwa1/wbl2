@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Комментарии на сайте Losst	</title>
+	<atom:link href="https://losst.pro/comments/feed" rel="self" type="application/rss+xml" />
+	<link>https://losst.pro/</link>
+	<description>Linux Open Source Software Technologies</description>
+	<lastBuildDate>Fri, 29 Aug 2025 13:08:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.2</generator>
+	<item>
+		<title>
+		Комментарий к записи Как настроить шрифт в терминале Linux (Дмитрий)		</title>
+		<link>https://losst.pro/kak-nastroit-shrift-v-terminale-linux#comment-157563</link>
+
+		<dc:creator><![CDATA[Дмитрий]]></dc:creator>
+		<pubDate>Fri, 29 Aug 2025 13:08:26 +0000</pubDate>
+		<guid isPermaLink="false">https://losst.pro/?p=41632#comment-157563</guid>
+
+					<description><![CDATA[В ответ на &lt;a href=&quot;https://losst.pro/kak-nastroit-shrift-v-terminale-linux#comment-145779&quot;&gt;Игорь&lt;/a&gt;.
+
+setfont]]></description>
+			<content:encoded><![CDATA[<p>В ответ на <a href="https://losst.pro/kak-nastroit-shrift-v-terminale-linux#comment-145779">Игорь</a>.</p>
+<p>setfont</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Комментарий к записи Настройка SSH в Debian (Николай)		</title>
+		<link>https://losst.pro/nastrojka-ssh-v-debian#comment-157562</link>
+
+		<dc:creator><![CDATA[Николай]]></dc:creator>
+		<pubDate>Tue, 26 Aug 2025 08:45:01 +0000</pubDate>
+		<guid isPermaLink="false">https://losst.pro/?p=33246#comment-157562</guid>
+
+					<description><![CDATA[Очень прошу того, кто знает помочь мне КОНКРЕТНО с настройкой SSH сервера на домашнем сервере. Поскольку этот сервер домашний МНЕ НЕ НУЖНА  аутентификация при помощи ключа, только по паролю.
+Меня категорически не устроят такие ответы, как  &quot;В строке подключения SSH указываем значением &quot;yes&quot;.&quot; А что это за строка, где она находится - информации АБСОЛЮТНЫЙ НУЛЬ!!!
+Вся проблема в том, что я самоучка и многих элементарных вещей не знаю.
+13 лет назад я создал домашний сервер на Debian 7 и путём обновлений довёл его до версии 12.
+При помощи этой статьи я установил и настроил SSH на сервере. и в результате добился только того, что можно из командной строки на сервере командой &quot;ssh root@localhost -p2222&quot; подключиться к самому себе, а из терминала на рабочей станции АБСОЛЮТНО НЕ ПОЛУЧАЕТСЯ! 
+Вот, что отвечает сервер на попытку подключения:
+ssh 192.168.8.3 -l user -p2222
+ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ssh: @   WARNING: REMOTE HOST IDENTIFICATION HAS CHANGET    @
+ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ssh: IT IS POSSIBLE THAT SOMEONE IS DOINGSOMETHING NASTY!
+ssh: Someone could be eavesdropping on yoy right now (man-in-the-middle attack)!
+ssh: It is also possible that a host key has just been changed.
+ssh: The fingerprint for the ED25519 key sent by the remote host is
+SHA256:2b1/znJa2lf1CPIB1f72MGUMVIovR89EJpS1H7bdvhE.
+ssh: Please contact your system administrator.
+ssh: Add correct host key in /root/.ssh/know_hosts:3
+ssh: Host key for [192.168.8.3]:2222 has changed and you have requested strict checking.
+ssh: Host key verification failed.
+
+Перевод:
+ssh 192.168.8.3 -l user -p2222
+ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ssh: @ ВНИМАНИЕ: ИДЕНТИФИКАЦИЯ УДАЛЕННОГО ХОСТА ИЗМЕНЕНА @
+ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ssh: ВОЗМОЖНО, КТО-ТО ДЕЛАЕТ ЧТО-ТО НЕПРИЯТНОЕ!
+ssh: Возможно, кто-то прямо сейчас подслушивает ваш телефон (атака &quot;человек посередине&quot;)!
+ssh: Также возможно, что ключ хоста только что был изменен.
+ssh: Отпечаток пальца для ключа ED25519, отправленный удаленным хостом, является
+SHA256:2b1/znJa2lf1CPIB1f72MGUMVIovR89EJpS1H7bdvhE.
+ssh: Пожалуйста, свяжитесь со своим системным администратором.
+ssh: Добавьте правильный ключ хоста в /root/.ssh/know_hosts:3
+ssh: Ключ хоста для [192.168.8.3]:2222 был изменен, и вы запросили строгую проверку.
+ssh: Проверка ключа хоста не удалась.
+
+Но я в настройках только изменил номер порта и не создавал ни каких ключей!
+Настроить доступ аналогично, как я это делал в Debian 7 не удаётся! К тому же, у меня утрачены записи, касающиеся настройки SSH.]]></description>
+			<content:encoded><![CDATA[<p>Очень прошу того, кто знает помочь мне КОНКРЕТНО с настройкой SSH сервера на домашнем сервере. Поскольку этот сервер домашний МНЕ НЕ НУЖНА  аутентификация при помощи ключа, только по паролю.<br />
+Меня категорически не устроят такие ответы, как  "В строке подключения SSH указываем значением "yes"." А что это за строка, где она находится - информации АБСОЛЮТНЫЙ НУЛЬ!!!<br />
+Вся проблема в том, что я самоучка и многих элементарных вещей не знаю.<br />
+13 лет назад я создал домашний сервер на Debian 7 и путём обновлений довёл его до версии 12.<br />
+При помощи этой статьи я установил и настроил SSH на сервере. и в результате добился только того, что можно из командной строки на сервере командой "ssh root@localhost -p2222" подключиться к самому себе, а из терминала на рабочей станции АБСОЛЮТНО НЕ ПОЛУЧАЕТСЯ!<br />
+Вот, что отвечает сервер на попытку подключения:<br />
+ssh 192.168.8.3 -l user -p2222<br />
+ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br />
+ssh: @   WARNING: REMOTE HOST IDENTIFICATION HAS CHANGET    @<br />
+ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br />
+ssh: IT IS POSSIBLE THAT SOMEONE IS DOINGSOMETHING NASTY!<br />
+ssh: Someone could be eavesdropping on yoy right now (man-in-the-middle attack)!<br />
+ssh: It is also possible that a host key has just been changed.<br />
+ssh: The fingerprint for the ED25519 key sent by the remote host is<br />
+SHA256:2b1/znJa2lf1CPIB1f72MGUMVIovR89EJpS1H7bdvhE.<br />
+ssh: Please contact your system administrator.<br />
+ssh: Add correct host key in /root/.ssh/know_hosts:3<br />
+ssh: Host key for [192.168.8.3]:2222 has changed and you have requested strict checking.<br />
+ssh: Host key verification failed.</p>
+<p>Перевод:<br />
+ssh 192.168.8.3 -l user -p2222<br />
+ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br />
+ssh: @ ВНИМАНИЕ: ИДЕНТИФИКАЦИЯ УДАЛЕННОГО ХОСТА ИЗМЕНЕНА @<br />
+ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<br />
+ssh: ВОЗМОЖНО, КТО-ТО ДЕЛАЕТ ЧТО-ТО НЕПРИЯТНОЕ!<br />
+ssh: Возможно, кто-то прямо сейчас подслушивает ваш телефон (атака "человек посередине")!<br />
+ssh: Также возможно, что ключ хоста только что был изменен.<br />
+ssh: Отпечаток пальца для ключа ED25519, отправленный удаленным хостом, является<br />
+SHA256:2b1/znJa2lf1CPIB1f72MGUMVIovR89EJpS1H7bdvhE.<br />
+ssh: Пожалуйста, свяжитесь со своим системным администратором.<br />
+ssh: Добавьте правильный ключ хоста в /root/.ssh/know_hosts:3<br />
+ssh: Ключ хоста для [192.168.8.3]:2222 был изменен, и вы запросили строгую проверку.<br />
+ssh: Проверка ключа хоста не удалась.</p>
+<p>Но я в настройках только изменил номер порта и не создавал ни каких ключей!<br />
+Настроить доступ аналогично, как я это делал в Debian 7 не удаётся! К тому же, у меня утрачены записи, касающиеся настройки SSH.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Комментарий к записи 42 команды Linux которые вы должны знать (John)		</title>
+		<link>https://losst.pro/42-komandy-linux-kotorye-vy-dolzhny-znat#comment-157561</link>
+
+		<dc:creator><![CDATA[John]]></dc:creator>
+		<pubDate>Tue, 26 Aug 2025 07:04:15 +0000</pubDate>
+		<guid isPermaLink="false">http://losst.pro/?p=2203#comment-157561</guid>
+
+					<description><![CDATA[В ответ на &lt;a href=&quot;https://losst.pro/42-komandy-linux-kotorye-vy-dolzhny-znat#comment-10302&quot;&gt;aircrack-ng&lt;/a&gt;.
+
+Да. простенький пример в 1 строку не помешал бы. 
+А так хорошая подборка &quot;на каждый день&quot;, даже с запасом..]]></description>
+			<content:encoded><![CDATA[<p>В ответ на <a href="https://losst.pro/42-komandy-linux-kotorye-vy-dolzhny-znat#comment-10302">aircrack-ng</a>.</p>
+<p>Да. простенький пример в 1 строку не помешал бы.<br />
+А так хорошая подборка "на каждый день", даже с запасом..</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Комментарий к записи Проверка жесткого диска в Linux (Иван Суслин)		</title>
+		<link>https://losst.pro/diagnostika-hdd-v-linux#comment-157560</link>
+
+		<dc:creator><![CDATA[Иван Суслин]]></dc:creator>
+		<pubDate>Thu, 21 Aug 2025 13:44:38 +0000</pubDate>
+		<guid isPermaLink="false">http://losst.pro/?p=1164#comment-157560</guid>
+
+					<description><![CDATA[Установил smartmontools, но как её запустить в работу?]]></description>
+			<content:encoded><![CDATA[<p>Установил smartmontools, но как её запустить в работу?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Комментарий к записи Настройка iptables для чайников (Тот)		</title>
+		<link>https://losst.pro/nastrojka-iptables-dlya-chajnikov#comment-157559</link>
+
+		<dc:creator><![CDATA[Тот]]></dc:creator>
+		<pubDate>Tue, 19 Aug 2025 17:20:33 +0000</pubDate>
+		<guid isPermaLink="false">http://losst.pro/?p=9927#comment-157559</guid>
+
+					<description><![CDATA[а можно ли заблокировать именно URL а не домены и ip адреса без ущербу процессора?]]></description>
+			<content:encoded><![CDATA[<p>а можно ли заблокировать именно URL а не домены и ip адреса без ущербу процессора?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Комментарий к записи Настройка Ubuntu 24.04 после установки (kostobrynka)		</title>
+		<link>https://losst.pro/nastrojka-ubuntu-24-04-posle-ustanovki#comment-157558</link>
+
+		<dc:creator><![CDATA[kostobrynka]]></dc:creator>
+		<pubDate>Tue, 19 Aug 2025 15:46:37 +0000</pubDate>
+		<guid isPermaLink="false">https://losst.pro/?p=46080#comment-157558</guid>
+
+					<description><![CDATA[Статья хорошая. Но, не хватает некоторых вещей. Например: 1. Вы рассказали как установить snap пакеты. Но не рассказали как отключить их поддержку насовсем. Например как это сделано в допиленном Ubunty ( это я о Linux mint - если кто не понял). 2. Вы не рассказали как настроить звук в Ubuntu. Ну не знаю, как у других у меня обычно после обновления звук отпадает . Отчего и почему не знаю.]]></description>
+			<content:encoded><![CDATA[<p>Статья хорошая. Но, не хватает некоторых вещей. Например: 1. Вы рассказали как установить snap пакеты. Но не рассказали как отключить их поддержку насовсем. Например как это сделано в допиленном Ubunty ( это я о Linux mint - если кто не понял). 2. Вы не рассказали как настроить звук в Ubuntu. Ну не знаю, как у других у меня обычно после обновления звук отпадает . Отчего и почему не знаю.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Комментарий к записи Лучшие эмуляторы терминала для Android (Тон)		</title>
+		<link>https://losst.pro/luchshie-emulyatory-terminala-dlya-android#comment-157557</link>
+
+		<dc:creator><![CDATA[Тон]]></dc:creator>
+		<pubDate>Tue, 19 Aug 2025 07:55:18 +0000</pubDate>
+		<guid isPermaLink="false">https://losst.pro/?p=42384#comment-157557</guid>
+
+					<description><![CDATA[Не согласен в том, чтобы создавать файлы и редактировать их в termux,  нужен root. Лично я
+
+всегда могу сделать touch или vim при том что у меня никогда не было root]]></description>
+			<content:encoded><![CDATA[<p>Не согласен в том, чтобы создавать файлы и редактировать их в termux,  нужен root. Лично я</p>
+<p>всегда могу сделать touch или vim при том что у меня никогда не было root</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Комментарий к записи Полезные консольные утилиты Linux в 2025 (Тот)		</title>
+		<link>https://losst.pro/poleznye-konsolnye-utility-linux-v-2025#comment-157556</link>
+
+		<dc:creator><![CDATA[Тот]]></dc:creator>
+		<pubDate>Mon, 18 Aug 2025 18:18:56 +0000</pubDate>
+		<guid isPermaLink="false">https://losst.pro/?p=47407#comment-157556</guid>
+
+					<description><![CDATA[прикольно, особенно понравился yazi]]></description>
+			<content:encoded><![CDATA[<p>прикольно, особенно понравился yazi</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Комментарий к записи Производители ноутбуков с Linux (Тот)		</title>
+		<link>https://losst.pro/proizvoditeli-noutbukov-s-linux#comment-157555</link>
+
+		<dc:creator><![CDATA[Тот]]></dc:creator>
+		<pubDate>Mon, 18 Aug 2025 15:28:07 +0000</pubDate>
+		<guid isPermaLink="false">http://losst.pro/?p=4083#comment-157555</guid>
+
+					<description><![CDATA[А есть ли ноутбуки с arch подобными дистрибутивами? Не, скачать то manjaro несложно(сейчас я на ней), просто интересно]]></description>
+			<content:encoded><![CDATA[<p>А есть ли ноутбуки с arch подобными дистрибутивами? Не, скачать то manjaro несложно(сейчас я на ней), просто интересно</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Комментарий к записи Как пользоваться gdb (Руслан)		</title>
+		<link>https://losst.pro/kak-polzovatsya-gdb#comment-157553</link>
+
+		<dc:creator><![CDATA[Руслан]]></dc:creator>
+		<pubDate>Mon, 18 Aug 2025 12:49:30 +0000</pubDate>
+		<guid isPermaLink="false">https://losst.pro/?p=36705#comment-157553</guid>
+
+					<description><![CDATA[&#062;&#062;&#062; что такое gdb
+GDB - это язык программирования, используемый для работы с операционными 
+системами, включая сборку, тестирование и выполнение задач.
+
+gemma сказала ответ. Теперь знайте]]></description>
+			<content:encoded><![CDATA[<p>&gt;&gt;&gt; что такое gdb<br />
+GDB - это язык программирования, используемый для работы с операционными<br />
+системами, включая сборку, тестирование и выполнение задач.</p>
+<p>gemma сказала ответ. Теперь знайте</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Кэширование страницы с использованием Disk: Enhanced (Page is feed) 
+
+Served from: losst.pro @ 2025-08-29 16:40:43 by W3 Total Cache
+-->

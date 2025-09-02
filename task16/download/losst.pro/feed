@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Losst</title>
+	<atom:link href="https://losst.pro/feed" rel="self" type="application/rss+xml" />
+	<link>https://losst.pro/</link>
+	<description>Linux Open Source Software Technologies</description>
+	<lastBuildDate>Fri, 15 Aug 2025 14:05:08 +0000</lastBuildDate>
+	<language>ru-RU</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.2</generator>
+
+<image>
+	<url>https://losst.pro/wp-content/uploads/2025/05/cropped-favicon-32x32.png</url>
+	<title>Losst</title>
+	<link>https://losst.pro/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Что такое пакетный менеджер в Linux</title>
+		<link>https://losst.pro/chto-takoe-paketnyj-menedzher-v-linux</link>
+					<comments>https://losst.pro/chto-takoe-paketnyj-menedzher-v-linux#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 14 Aug 2025 08:58:17 +0000</pubDate>
+				<category><![CDATA[Информация]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=47448</guid>
+
+					<description><![CDATA[Одно из основных отличий между дистрибутивами Linux - это способ управления пакетами программного обеспечения. Из этой статьи вы узнаете что такое пакеты, форматы пакетов и пакетные менеджеры в Linux, а также как они работают и какие типы пакетов в Linux вообще существуют. Что такое пакетный ... <a title="Что такое пакетный менеджер в Linux" class="read-more" href="https://losst.pro/chto-takoe-paketnyj-menedzher-v-linux" aria-label="Read more about Что такое пакетный менеджер в Linux">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/chto-takoe-paketnyj-menedzher-v-linux/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Полезные консольные утилиты Linux в 2025</title>
+		<link>https://losst.pro/poleznye-konsolnye-utility-linux-v-2025</link>
+					<comments>https://losst.pro/poleznye-konsolnye-utility-linux-v-2025#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 01 Aug 2025 07:35:12 +0000</pubDate>
+				<category><![CDATA[Списки]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=47407</guid>
+
+					<description><![CDATA[Много из задач по администрированию и настройке Linux можно сделать с помощью команд терминала. Это быстро, и эффективно, но только если вы помните нужные команды и их параметры. Кое-что можно сделать в графическом интерфейсе. Это не так быстро, но удобно. Но есть и третий вариант ... <a title="Полезные консольные утилиты Linux в 2025" class="read-more" href="https://losst.pro/poleznye-konsolnye-utility-linux-v-2025" aria-label="Read more about Полезные консольные утилиты Linux в 2025">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/poleznye-konsolnye-utility-linux-v-2025/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Что такое Secure Boot и Shim файлы в Linux</title>
+		<link>https://losst.pro/chto-takoe-secure-boot-i-shim-fajly-v-linux</link>
+					<comments>https://losst.pro/chto-takoe-secure-boot-i-shim-fajly-v-linux#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 14 Jul 2025 07:43:16 +0000</pubDate>
+				<category><![CDATA[Информация]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=47389</guid>
+
+					<description><![CDATA[Если вы пользуетесь Linux, то можете столкнуться с проблемами загрузки системы во время установки вашего любимого дистрибутива, особенно если на вашем компьютере включен Secure Boot (защищённая загрузка). Функция Secure Boot должна добавлять дополнительный уровень защиты для вашей системы, препятствуя запуску неверифицированного программного обеспечения во время ... <a title="Что такое Secure Boot и Shim файлы в Linux" class="read-more" href="https://losst.pro/chto-takoe-secure-boot-i-shim-fajly-v-linux" aria-label="Read more about Что такое Secure Boot и Shim файлы в Linux">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/chto-takoe-secure-boot-i-shim-fajly-v-linux/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Как подключить Android к Ubuntu с помощью KDE Connect</title>
+		<link>https://losst.pro/kak-podklyuchit-android-k-ubuntu-s-pomoshhyu-kde-connect</link>
+					<comments>https://losst.pro/kak-podklyuchit-android-k-ubuntu-s-pomoshhyu-kde-connect#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 01 Jul 2025 07:26:04 +0000</pubDate>
+				<category><![CDATA[Инструкции]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=47352</guid>
+
+					<description><![CDATA[Если вы пользовались MacOS или вы интересовались этой операционной системой, то знаете, что там есть синхроинизация между телефоном и компьютером, например, для передачи файлов или управления медиа, когда на телефон поступает звонок, то медиа что воспрозиводится на ПК ставится на паузу. В Linux и Android ... <a title="Как подключить Android к Ubuntu с помощью KDE Connect" class="read-more" href="https://losst.pro/kak-podklyuchit-android-k-ubuntu-s-pomoshhyu-kde-connect" aria-label="Read more about Как подключить Android к Ubuntu с помощью KDE Connect">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/kak-podklyuchit-android-k-ubuntu-s-pomoshhyu-kde-connect/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Как принудительно закрыть приложение в Ubuntu</title>
+		<link>https://losst.pro/kak-prinuditelno-zakryt-prilozhenie-v-ubuntu</link>
+					<comments>https://losst.pro/kak-prinuditelno-zakryt-prilozhenie-v-ubuntu#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 17 Jun 2025 09:37:12 +0000</pubDate>
+				<category><![CDATA[Инструкции]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=47323</guid>
+
+					<description><![CDATA[Каким бы стабильным не был Linux, иногда приложения зависают и их нужно принудительно завершать. В Linux существует много консольных инструментов для принудительного завершения процессов, но в графическом интерфейсе их не так много. Можно использовать какое-либо приложение диспетчера задач, либо для Xorg была утилита xkill, которая ... <a title="Как принудительно закрыть приложение в Ubuntu" class="read-more" href="https://losst.pro/kak-prinuditelno-zakryt-prilozhenie-v-ubuntu" aria-label="Read more about Как принудительно закрыть приложение в Ubuntu">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/kak-prinuditelno-zakryt-prilozhenie-v-ubuntu/feed</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Лучшие приложения для Linux в 2025</title>
+		<link>https://losst.pro/luchshie-prilozheniya-dlya-linux-v-2025</link>
+					<comments>https://losst.pro/luchshie-prilozheniya-dlya-linux-v-2025#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 02 Jun 2025 10:26:40 +0000</pubDate>
+				<category><![CDATA[Списки]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=47299</guid>
+
+					<description><![CDATA[Экосистема Linux довольно большая, и когда дело доходит до выбора программного обеспечения, нам доступно огромное количество программ, которые решают одну и ту же задачу. При чем постоянно появляются новые программы, которые имеют новые функции или решают проблемы новыми способами. В этой статье я собрал программное ... <a title="Лучшие приложения для Linux в 2025" class="read-more" href="https://losst.pro/luchshie-prilozheniya-dlya-linux-v-2025" aria-label="Read more about Лучшие приложения для Linux в 2025">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/luchshie-prilozheniya-dlya-linux-v-2025/feed</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Как пользоваться Ollama в Linux для начинающих</title>
+		<link>https://losst.pro/kak-polzovatsya-ollama-dlya-nachinayushhih</link>
+					<comments>https://losst.pro/kak-polzovatsya-ollama-dlya-nachinayushhih#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 01 May 2025 08:52:16 +0000</pubDate>
+				<category><![CDATA[Инструкции]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=46536</guid>
+
+					<description><![CDATA[Искусственный интеллект набирает довольно большую популярность в последнее время. Причем наряду с моделями, доступными в облаке, многие пользователи хотят иметь возможность использовать искусственный интеллект локально. Как бы там ни было, это значительно безопаснее, поскольку ваши данные никуда не передаются, а также надежнее, так как при ... <a title="Как пользоваться Ollama в Linux для начинающих" class="read-more" href="https://losst.pro/kak-polzovatsya-ollama-dlya-nachinayushhih" aria-label="Read more about Как пользоваться Ollama в Linux для начинающих">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/kak-polzovatsya-ollama-dlya-nachinayushhih/feed</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Обновление Fedora 41 до 42</title>
+		<link>https://losst.pro/obnovlenie-fedora-41-do-42</link>
+					<comments>https://losst.pro/obnovlenie-fedora-41-do-42#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 18 Apr 2025 15:46:14 +0000</pubDate>
+				<category><![CDATA[Инструкции]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=46519</guid>
+
+					<description><![CDATA[Несколько дней назад состоялся релиз Fedora 42, с DNF5 и GNOME 48. Из самого интересного, в GNOME появилась возможность посмотреть, сколько времени вы провели за компьютером в течение недели, а уведомления от приложений теперь группируются по названию программы. В этой статье я расскажу как обновить ... <a title="Обновление Fedora 41 до 42" class="read-more" href="https://losst.pro/obnovlenie-fedora-41-do-42" aria-label="Read more about Обновление Fedora 41 до 42">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/obnovlenie-fedora-41-do-42/feed</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Установка PHPStorm в Fedora 41</title>
+		<link>https://losst.pro/ustanovka-phpstorm-v-fedora-41</link>
+					<comments>https://losst.pro/ustanovka-phpstorm-v-fedora-41#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 24 Mar 2025 12:06:58 +0000</pubDate>
+				<category><![CDATA[Инструкции]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=46376</guid>
+
+					<description><![CDATA[PHPStorm - интегрированная среда разработки от JetBrains для языка программирования PHP. Здесь поддерживаются все возможности IDE от компании JetBrains, плюс можно установить множество плагинов, например, для Laravel или Symfony, которые добавляют подсветку синтаксиса, автодополнение и поиск путей к файлам с учетом особенностей фреймворка. В этой ... <a title="Установка PHPStorm в Fedora 41" class="read-more" href="https://losst.pro/ustanovka-phpstorm-v-fedora-41" aria-label="Read more about Установка PHPStorm в Fedora 41">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/ustanovka-phpstorm-v-fedora-41/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Установка PHPStorm в Ubuntu 24.04 или 24.10</title>
+		<link>https://losst.pro/ustanovka-phpstorm-v-ubuntu-24-04-ili-24-10</link>
+					<comments>https://losst.pro/ustanovka-phpstorm-v-ubuntu-24-04-ili-24-10#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 21 Mar 2025 14:35:13 +0000</pubDate>
+				<category><![CDATA[Инструкции]]></category>
+		<guid isPermaLink="false">https://losst.pro/?p=46356</guid>
+
+					<description><![CDATA[PHPStorm - популярная интегрированная среда разработки (IDE) для языка программирования PHP от компании JetBrains. Программа получила такую популярность благодаря удобному интерфейсу, большому количеству встроенных функций, а также функций автоматического рефакторинга кода, которых нет в других IDE. Для использования программы необходимо приобрести лицензию, но у нее ... <a title="Установка PHPStorm в Ubuntu 24.04 или 24.10" class="read-more" href="https://losst.pro/ustanovka-phpstorm-v-ubuntu-24-04-ili-24-10" aria-label="Read more about Установка PHPStorm в Ubuntu 24.04 или 24.10">Читать далее</a>]]></description>
+		
+					<wfw:commentRss>https://losst.pro/ustanovka-phpstorm-v-ubuntu-24-04-ili-24-10/feed</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Кэширование страницы с использованием Disk: Enhanced (Page is feed) 
+
+Served from: losst.pro @ 2025-08-15 17:10:46 by W3 Total Cache
+-->
